@@ -10,7 +10,7 @@ int main(){
     result=rand()%100+1;
 
     do{
-        cout<<"guess the number between 1-100:";
+        cout<<"guess the number between 1-100: ";
         cin>>n;
         if(n>result){
             cout<<"too high ,please guess lower "<<endl;
